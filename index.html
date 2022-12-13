@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Patrick+Hand&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="container">
+        <div id="inner-container">
+            <div id="inner-wraper">
+                <div id="input-container">
+                    <input type="text" id="input" placeholder="Enter number...">
+                    <button onclick="displayTable()" id="display-button"> Show </button>
+                </div>
+                <div id="display-container">
+                    <div id="temp-display">
+                        <h1>Nothing to display 😔 </h1>
+                    </div>
+                    <!-- HTML will be inserted using Javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal">
+        <div id="color-bar"></div>
+        <div id="text">
+            <p>Please enter valid number</p>
+        </div>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
